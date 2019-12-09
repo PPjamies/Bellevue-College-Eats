@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BC_Eats</string>
+    <string name="login">login</string>
+    <string name="registration">registration</string>
+
+    <string name="phone">phone number</string>
+    <string name="password">password</string>
+    <string name="signup">sign up</string>
+    <string name="forgotpw">forgot password</string>
+
+    <string name="invalid_pw">invalid password, try again</string>
+    <string name="invalid_number">invalid phone number, try again</string>
+    <string name="invalid_cred">invalid credentials, try again</string>
+    <string name="number_in_use">phone number is in use</string>
+    <string name="successful_registration">successfully registered user</string>
+
+    <string name="opt_notifcations">Allow BC Eats to send you notifications whenever there is free food on campus.</string>
+</resources>
