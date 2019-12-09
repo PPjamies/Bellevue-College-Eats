@@ -46,7 +46,7 @@ public class Server {
     
     
 	private static void init() throws Exception{
-		BasicAWSCredentials awsCreds = new BasicAWSCredentials("AKIAUR2SZKZYBH7O26FK","Yd29Y+irfmHlu4s0cut5s1xkRfrfnBMt8n5XBcHw");
+		BasicAWSCredentials awsCreds = new BasicAWSCredentials("key","secret access key");
 		
 		aws_dynamodb = AmazonDynamoDBClientBuilder.standard()
 				.withCredentials(new AWSStaticCredentialsProvider(awsCreds))
